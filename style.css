@@ -1,0 +1,115 @@
+#container {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    color: #a9e21a;
+    cursor: pointer;
+}
+
+li {
+    width: 300px;
+    margin: 10px;
+    padding: 25px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: #c4e3ef;
+    font-size: larger;
+}
+
+li:hover {
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+    display: block;
+    margin-top: 10px;
+}
+
+body {
+    background-image: url(./picture/bi.jpg);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1e081b;
+    color: #a9e21a;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #341864;
+    display: flex;
+    font-size: large;
+    align-items: flex-start;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0 10px;
+    display: inline;
+    margin-top: 17px;
+    margin-left: 20px;
+}
+
+button {
+    background-color: #341864;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 45px;
+    font-size: larger;
+}
+#merasearch{
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: small;
+    background-color: #a9e21a;
+    color: #000;
+}
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 300px;
+    margin-top: 45px;
+    font-size: large;
+    font-weight: 400;
+}
+
+#ti {
+    font-weight: 700;
+}
+
+.da {
+    font-size: small;
+}
+
+#ins {
+    border: 1px solid #191b14;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: #e1b5ef;
+}
+img
+{
+border-radius: 10px;
+}
